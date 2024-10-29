@@ -223,12 +223,12 @@ footer {
 
 @media only screen and (max-width: 480px) {
   .navbar {
-      flex-direction: column;
+      flex-direction: row;
       padding: 10px;
   }
 
   .nav-links {
-      flex-direction: column;
+      flex-direction: row;
       gap: 8px;
   }
 
@@ -256,7 +256,7 @@ footer {
 /* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
 @media only screen and (max-width: 360px) {
   .navbar {
-      flex-direction: column;
+      flex-direction: row;
       padding: 8px;
   }
 
@@ -265,7 +265,7 @@ footer {
   }
 
   .nav-links {
-      flex-direction: column;
+      flex-direction: row;
       gap: 5px;
   }
 
@@ -274,13 +274,13 @@ footer {
   }
 
   .search-bar {
-      width: 100%;
+      width: 60%;
       margin: 0 auto;
   }
 
   .search-bar input {
-      width: 70%;
-      font-size: 0.9rem; /* Smaller font for input */
+      width: 60%;
+      font-size: 0.8rem; /* Smaller font for input */
   }
 
   main {

@@ -39,7 +39,7 @@ nav{
     font-size: 1.3rem;
     color: black;
     text-decoration: none;
-    margin: 0 20px;
+    margin: 0 10px;
     transition: 0.3s linear;
 }
 
@@ -191,6 +191,7 @@ section .content{
         flex-direction: row; /* Keeps links in a single row */
         justify-content: flex-start; /* Aligns links to the start */
         width: auto; /* Adjusts width based on content */
+        align-items: center;
     }
     .nav-container button{
         display: none;
@@ -524,8 +525,9 @@ body {
     .links {
         display: flex !important;
         flex-direction: row; /* Keeps links in a single row */
-        justify-content: flex-start; /* Aligns links to the start */
+        align-items: flex-start;
         width: auto; /* Adjusts width based on content */
+        align-items: center;
     }
 
 /* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
@@ -580,8 +582,9 @@ body {
     .links {
         display: flex !important;
         flex-direction: row; /* Keeps links in a single row */
-        justify-content: flex-start; /* Aligns links to the start */
+        align-items: flex-start;
         width: auto; /* Adjusts width based on content */
+        align-items: center;
     }
 }
 
