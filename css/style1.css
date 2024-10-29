@@ -513,6 +513,54 @@ body {
     }
 }
 
+/* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
+@media (max-width: 360px) {
+    .nav-container .logo img {
+        width: 80px;
+        height: auto;
+    }
+
+    .content {
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main-content {
+        width: 100%;
+        max-width: 280px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-content h1, .main-content span {
+        font-size: 1.5rem; /* Reduces font size for small screens */
+    }
+
+    .main-content p {
+        font-size: 0.9rem;
+        padding: 0 0.5rem; /* Adds padding to avoid text touching edges */
+    }
+
+    .buttons button {
+        width: 90%;
+        margin: 0.5rem 0;
+        font-size: 0.9rem; /* Adjusts button font size */
+    }
+
+    .image img {
+        width: 90%;
+        height: auto;
+        margin: 15px 0;
+    }
+
+    .faq-question {
+        font-size: 1rem; /* Reduces font size for FAQ questions */
+    }
+}
+
+
 
 
 
