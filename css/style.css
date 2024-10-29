@@ -141,4 +141,25 @@ button:hover{
     color:blue;
 }
 
+/* Responsive design for smaller screens (tablets and phones) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjusts width for smaller screens */
+        padding: 1rem;
+        margin: 20px auto;
+    }
+
+    .form-title {
+        font-size: 1.3rem; /* Scales down title font for better fit */
+    }
+
+    .input-group {
+        padding: 3% 0; /* Adjusts input group padding */
+    }
+
+    .btn {
+        font-size: 1rem; /* Scales button font size */
+    }
+}
+
 
