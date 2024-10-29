@@ -188,7 +188,7 @@ section .content{
 @media (max-width:768px){
     .links {
         display: flex; /* Instead of display: none */
-        flex-direction: column; /* Stack links vertically for small screens */
+        flex-direction: row; /* Stack links vertically for small screens */
         text-align: center;
     }
 
@@ -523,7 +523,7 @@ body {
     }
     .links {
         display: flex; /* Instead of display: none */
-        flex-direction: column; /* Stack links vertically for small screens */
+        flex-direction: row; /* Stack links vertically for small screens */
         text-align: center;
     }
 }
@@ -579,7 +579,7 @@ body {
     }
     .links {
         display: flex; /* Instead of display: none */
-        flex-direction: column; /* Stack links vertically for small screens */
+        flex-direction: row; /* Stack links vertically for small screens */
         text-align: center;
     }
 }
