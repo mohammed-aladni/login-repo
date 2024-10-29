@@ -223,6 +223,10 @@ section .content{
     .main-content p{
         text-align: center;
     }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
 }
 /* From Uiverse.io by zanina-yassine */ 
@@ -511,6 +515,10 @@ body {
         height: auto;
         margin: 20px 0;
     }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 /* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
@@ -557,6 +565,10 @@ body {
 
     .faq-question {
         font-size: 1rem; /* Reduces font size for FAQ questions */
+    }
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
