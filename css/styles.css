@@ -253,3 +253,58 @@ footer {
   }
 }
 
+/* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
+@media only screen and (max-width: 360px) {
+  .navbar {
+      flex-direction: column;
+      padding: 8px;
+  }
+
+  .logo {
+      font-size: 1.5em; /* Reduces logo font size for compact fit */
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .background-image {
+      height: 35vh; /* Further reduces background height */
+  }
+
+  .search-bar {
+      width: 100%;
+      margin: 0 auto;
+  }
+
+  .search-bar input {
+      width: 70%;
+      font-size: 0.9rem; /* Smaller font for input */
+  }
+
+  main {
+      padding: 0.5em;
+  }
+
+  h1 {
+      font-size: 1rem; /* Reduces header size for small screens */
+  }
+
+  p {
+      font-size: 0.8rem; /* Smaller paragraph font */
+  }
+
+  footer {
+      padding: 15px 0;
+  }
+
+  .footer-links li {
+      display: block;
+      margin: 5px 0;
+  }
+
+  .footer-links a {
+      font-size: 0.9rem;
+  }
+}

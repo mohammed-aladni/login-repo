@@ -161,5 +161,41 @@ button:hover{
         font-size: 1rem; /* Scales button font size */
     }
 }
+/* Responsive design for very small screens (small phones like Samsung Galaxy S7) */
+@media (max-width: 360px) {
+    .container {
+        width: 95%; /* Adjust container width for small screens */
+        padding: 0.8rem;
+        margin: 20px auto;
+    }
+
+    .form-title {
+        font-size: 1.2rem; /* Reduces title font size */
+    }
+
+    input {
+        font-size: 14px; /* Slightly smaller font for inputs */
+    }
+
+    .btn {
+        font-size: 0.9rem; /* Scales down button font size */
+        padding: 6px 0; /* Reduces button padding for compact layout */
+    }
+
+    .icons i {
+        padding: 0.6rem 1rem; /* Adjusts icon padding */
+        font-size: 1.3rem; /* Scales down icon size */
+        margin: 0 10px;
+    }
+
+    .or {
+        font-size: 1rem; /* Reduces text size for better fit */
+    }
+
+    .recover {
+        font-size: 0.9rem; /* Scales down text */
+    }
+}
+
 
 
