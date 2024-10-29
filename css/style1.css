@@ -190,7 +190,7 @@ section .content{
         display: flex !important;
         flex-direction: row; /* Keeps links in a single row */
         justify-content: flex-start; /* Aligns links to the start */
-        gap: 10px; /* Optional: Adds some spacing between links */
+        gap: 5px; /* Optional: Adds some spacing between links */
         width: auto; /* Adjusts width based on content */
     }
     .nav-container button{
@@ -526,7 +526,7 @@ body {
         display: flex !important;
         flex-direction: row; /* Keeps links in a single row */
         justify-content: flex-start; /* Aligns links to the start */
-        gap: 10px; /* Optional: Adds some spacing between links */
+        gap: 5px; /* Optional: Adds some spacing between links */
         width: auto; /* Adjusts width based on content */
     }
 
@@ -583,7 +583,7 @@ body {
         display: flex !important;
         flex-direction: row; /* Keeps links in a single row */
         justify-content: flex-start; /* Aligns links to the start */
-        gap: 10px; /* Optional: Adds some spacing between links */
+        gap: 5px; /* Optional: Adds some spacing between links */
         width: auto; /* Adjusts width based on content */
     }
 }
