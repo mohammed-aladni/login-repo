@@ -180,8 +180,8 @@ section .content{
 
 .image img{
     margin-top: 50px;
-    width: 800px;
-    height: 800px;
+    width: 1560px;
+    height: 650px;
     filter: drop-shadow(0 0 500px #fca61f);
 }
 
