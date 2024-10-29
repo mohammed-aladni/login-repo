@@ -419,6 +419,52 @@ header {
     }
 }
 
+/* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
+@media (max-width: 360px) {
+    .container {
+        width: 95%; /* Adjust container width for small screens */
+        padding: 8px;
+    }
+
+    .listProduct {
+        grid-template-columns: 1fr; /* Single column layout for better fit */
+        gap: 5px;
+    }
+
+    .listProduct .item {
+        padding: 10px; /* Reduces padding for compactness */
+    }
+
+    .title {
+        font-size: 1.3rem; /* Reduces title font size */
+    }
+
+    .icon-cart span {
+        width: 18px;
+        height: 18px;
+        font-size: 8px;
+    }
+
+    .modal-content {
+        width: 90%; /* Adjusts modal width for small screens */
+    }
+
+    .search-input, .coupon-section input {
+        width: 100%; /* Expands inputs to full width on small screens */
+        font-size: 0.9rem;
+    }
+
+    .back-button button, .coupon-section button, .payment-options button {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .total-amount {
+        font-size: 1rem;
+    }
+}
+
+
 
 
 
