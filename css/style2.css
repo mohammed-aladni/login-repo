@@ -386,6 +386,40 @@ header {
     cursor: pointer;
 }
 
+/* Additional responsive design for smaller screens */
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%; /* Adjusts container to fit mobile screens */
+        padding: 10px;
+    }
+
+    .listProduct {
+        grid-template-columns: repeat(2, 1fr); /* Reduces grid columns for better fit */
+        gap: 10px;
+    }
+
+    .listProduct .item {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .icon-cart span {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        top: -5px;
+        right: -10px;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+}
+
+
 
 
 

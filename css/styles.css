@@ -192,3 +192,64 @@ footer {
   text-decoration: underline;
 }
 
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .background-image {
+      height: 50vh;
+  }
+
+  .search-bar input {
+      width: 100%;
+  }
+
+  main {
+      padding: 1em;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .nav-links {
+      flex-direction: column;
+      gap: 8px;
+  }
+
+  .background-image {
+      height: 40vh;
+  }
+
+  .search-bar input {
+      width: 80%;
+  }
+
+  main {
+      padding: 0.5em;
+  }
+
+  h1 {
+      font-size: 1.2rem;
+  }
+
+  p {
+      font-size: 0.9rem;
+  }
+}
+
