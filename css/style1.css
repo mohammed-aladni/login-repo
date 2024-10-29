@@ -228,7 +228,7 @@ section .content{
     }
     img {
         max-width: 100%;
-        height: auto;
+        height: 100%;
     }
 
 }
@@ -520,7 +520,7 @@ body {
     }
     img {
         max-width: 100%;
-        height: auto;
+        height: 100%;
     }
     .links {
         display: flex !important;
@@ -577,7 +577,7 @@ body {
     }
     img {
         max-width: 100%;
-        height: auto;
+        height: 100%;
     }
     .links {
         display: flex !important;
