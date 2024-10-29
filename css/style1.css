@@ -186,8 +186,10 @@ section .content{
 }
 
 @media (max-width:768px){
-    .links{
-        display: none;
+    .links {
+        display: flex; /* Instead of display: none */
+        flex-direction: column; /* Stack links vertically for small screens */
+        text-align: center;
     }
 
     .nav-container button{
@@ -519,6 +521,11 @@ body {
         max-width: 100%;
         height: auto;
     }
+    .links {
+        display: flex; /* Instead of display: none */
+        flex-direction: column; /* Stack links vertically for small screens */
+        text-align: center;
+    }
 }
 
 /* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
@@ -569,6 +576,11 @@ body {
     img {
         max-width: 100%;
         height: auto;
+    }
+    .links {
+        display: flex; /* Instead of display: none */
+        flex-direction: column; /* Stack links vertically for small screens */
+        text-align: center;
     }
 }
 
