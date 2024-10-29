@@ -579,7 +579,7 @@ body {
     }
     .links {
         display: flex !important;
-        flex-direction: column; /* Keeps links in a single row */
+        flex-direction: row; /* Keeps links in a single row */
         justify-content: flex-start; /* Aligns links to the start */
         width: auto; /* Adjusts width based on content */
     }
