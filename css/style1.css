@@ -36,11 +36,11 @@ nav{
 }
 
 .nav-container .links a{
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     color: black;
     text-decoration: none;
-    margin: 0 10px;
-    transition: 0.3s linear;
+    margin: 0 4px;
+    transition: 0.6s linear;
 }
 
 .nav-container .links a:hover{
