@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:white;
+    background-color:rgb(19, 1, 1);
     width: 100%;
     height: auto;
     overflow:hidden ;
@@ -37,10 +37,11 @@ nav{
 
 .nav-container .links a{
     font-size: 1.3rem;
-    color: black;
+    color: rgb(218, 212, 212);
     text-decoration: none;
     margin: 0 10px;
     transition: 0.3s linear;
+    
 }
 
 .nav-container .links a:hover{
@@ -210,6 +211,7 @@ section .content{
         justify-content: flex-start; /* Aligns links to the start */
         width: auto; /* Adjusts width based on content */
         align-items: center;
+        color: rgb(218, 212, 212);
     }
     .nav-container button{
         display: none;
@@ -565,7 +567,7 @@ body {
     }
     .nav-container .links a{
         font-size: 1rem;
-        color: black;
+        color: rgb(241, 235, 235);
         text-decoration: none;
         margin: 0 8px;
         transition: 0.2s linear;
@@ -687,7 +689,7 @@ body {
     }
     .nav-container .links a{
         font-size: 1rem;
-        color: black;
+        color: rgb(244, 235, 235);
         text-decoration: none;
         margin: 0 8px;
         transition: 0.2s linear;
