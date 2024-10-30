@@ -36,11 +36,11 @@ nav{
 }
 
 .nav-container .links a{
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     color: black;
     text-decoration: none;
-    margin: 0 4px;
-    transition: 0.6s linear;
+    margin: 0 10px;
+    transition: 0.3s linear;
 }
 
 .nav-container .links a:hover{
@@ -529,6 +529,13 @@ body {
         width: auto; /* Adjusts width based on content */
         align-items: center;
     }
+    .nav-container .links a{
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        margin: 0 8px;
+        transition: 0.2s linear;
+    }
     .team-carousel {  /*team members*/
         flex-direction: column;
         align-items: center;
@@ -554,7 +561,7 @@ body {
         padding: 15px;
     }
     h1 {
-        font-size: 1.6em;
+        font-size: 0.7em;
     }
 
     .content ul li {
@@ -562,7 +569,7 @@ body {
     }
 
     .social-professional {
-        gap: 8px;
+        gap: 6px;
     }
 
     .social-professional img {
@@ -626,6 +633,13 @@ body {
         align-items: flex-start;
         width: auto; /* Adjusts width based on content */
         align-items: center;
+    }
+    .nav-container .links a{
+        font-size: 0.9rem;
+        color: black;
+        text-decoration: none;
+        margin: 0 7px;
+        transition: 0.2s linear;
     }
     .team-carousel {  /*team member*/
         flex-direction: column;
