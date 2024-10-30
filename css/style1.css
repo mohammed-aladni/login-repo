@@ -248,7 +248,23 @@ section .content{
         max-width: 100%;
         max-height: 100%;
     }
-
+    .contact-info {
+        text-align: center;
+    }
+    
+    .social-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Adds spacing between icons */
+        margin-top: 10px;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+    }
+    
 }
 /* From Uiverse.io by zanina-yassine */ 
 .button {
@@ -594,6 +610,23 @@ body {
         width: 25px;
         height: 25px;
     }
+    .contact-info {
+        text-align: center;
+    }
+    
+    .social-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Adds spacing between icons */
+        margin-top: 10px;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+    }
+    
 }
 
 /* Extra responsiveness for very small screens (small phones like Samsung Galaxy S7) */
@@ -700,6 +733,23 @@ body {
         width: 20px;
         height: 20px;
     }
+    .contact-info {
+        text-align: center;
+    }
+    
+    .social-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 10px; /* Adds spacing between icons */
+        margin-top: 10px;
+    }
+    
+    .social-icons li {
+        display: inline-block;
+    }
+    
 }
 
 
