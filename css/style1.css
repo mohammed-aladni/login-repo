@@ -184,6 +184,9 @@ section .content{
 .social-icons li {
     display: inline-block;
 }
+.contact-info  {
+    color: rgb(218, 212, 212);
+}
 
 
 .buttons button:hover{
@@ -265,6 +268,9 @@ section .content{
     
     .social-icons li {
         display: inline-block;
+    }
+    .contact-info {
+        color: rgb(218, 212, 212);
     }
     
 }
@@ -628,6 +634,9 @@ body {
     .social-icons li {
         display: inline-block;
     }
+    .contact-info {
+        color: rgb(218, 212, 212);
+    }
     
 }
 
@@ -742,6 +751,9 @@ body {
     
     .social-icons li {
         display: inline-block;
+    }
+    .contact-info {
+        color: rgb(218, 212, 212);
     }
     
 }
