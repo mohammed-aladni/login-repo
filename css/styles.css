@@ -203,14 +203,14 @@ footer {
   }
 
   .nav-links {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       gap: 12px;
       padding: 0;
   }
 
   .background-image {
-      height: 45vh;
+      height: 90vh;
   }
 
   .search-bar input {
@@ -250,7 +250,7 @@ footer {
   }
 
   .background-image {
-    height: 60vh; /* Adjust the height to fit better if needed */
+    height: 90vh; /* Adjust the height to fit better if needed */
   }
 
   .search-bar {
@@ -302,7 +302,7 @@ footer {
   }
 
   .background-image {
-    height: 50vh; /* Further adjust for very small screens */
+    height: 90vh; /* Further adjust for very small screens */
   }
 
   .search-bar {
