@@ -167,6 +167,24 @@ section .content{
     transform: 0.2s linear;
 }
 
+.contact-info {
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds spacing between icons */
+    margin-top: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+
 .buttons button:hover{
     box-shadow: 2px 2px 30px #fca61f;
 }
