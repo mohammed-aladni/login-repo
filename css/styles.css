@@ -106,7 +106,7 @@ body {
 .search-bar button {
   padding: 8px;
   font-size: 1rem;
-  background-color: #fff;
+  background-color: #e2d0e6;
   border: none;
   cursor: pointer;
 }
@@ -128,9 +128,8 @@ main {
 
 .background-image {
   width: 100%;
-  height: calc(100vh - 60px); /* Subtract navbar height */
-  overflow: hidden;
-  position: relative;
+    height: 100vh; /* Set to full viewport height */
+    overflow: hidden; /* Hide any overflow */
 }
 
 .background-image img {
@@ -251,7 +250,7 @@ footer {
   }
 
   .background-image {
-      height: 40vh;
+    height: 60vh; /* Adjust the height to fit better if needed */
   }
 
   .search-bar {
@@ -303,7 +302,7 @@ footer {
   }
 
   .background-image {
-      height: 35vh;
+    height: 50vh; /* Further adjust for very small screens */
   }
 
   .search-bar {
