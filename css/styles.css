@@ -104,12 +104,10 @@ body {
 }
 
 .search-bar button {
-  padding: 8px 10px;
+  padding: 8px;
   font-size: 1rem;
-  background-color: #ddd4e4;
-  color: white;
+  background-color: #e2d0e6;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
 }
 
