@@ -725,14 +725,6 @@ body {
         font-size: 0.8em;
     }
 
-    .social-professional {
-        gap: 6px;
-    }
-
-    .social-professional img {
-        width: 20px;
-        height: 20px;
-    }
     .contact-info {
         text-align: center;
     }
@@ -742,7 +734,7 @@ body {
         padding: 0;
         display: flex;
         justify-content: center;
-        gap: 10px; /* Adds spacing between icons */
+        gap: 20px; /* Adds spacing between icons */
         margin-top: 10px;
     }
     
