@@ -38,6 +38,7 @@ body {
 }
 
 .nav-links {
+  font-size: 1.3rem;
   display: flex;
   flex-direction: row;
     gap: 10px;
@@ -247,7 +248,7 @@ footer {
 @media only screen and (max-width: 480px) {
   .navbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Stack items vertically */
     align-items: center;
     justify-content: space-between;
     padding: 6px;
