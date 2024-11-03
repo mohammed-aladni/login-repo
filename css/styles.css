@@ -325,7 +325,7 @@ footer {
       display: flex;
       flex-direction: column; /* Stack items vertically */
       align-items: center;
-      padding: 4px;
+      padding: 3px;
   }
 
   .logo img {
@@ -338,7 +338,7 @@ footer {
   .nav-links {
     display: flex;
     flex-direction: row;
-    gap: 4px;
+    gap: 3px;
     justify-content: center; /* Center links */
     flex-wrap: nowrap; /* Prevents wrapping */
     margin-bottom: 5px; /* Space between links and search bar */
