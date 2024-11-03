@@ -197,16 +197,20 @@ footer {
 /* Tablet screens up to 768px */
 @media only screen and (max-width: 768px) {
   .navbar {
-      flex-direction: row;
-      padding: 10px;
-      justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
   }
 
   .nav-links {
-      flex-direction: row;
-      align-items: center;
-      gap: 12px;
-      padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 8px; /* Adjust gap as needed */
+    justify-content: flex-end;
+    flex-grow: 1;
+
   }
 
   .background-image {
@@ -238,15 +242,20 @@ footer {
 /* Small devices up to 480px */
 @media only screen and (max-width: 480px) {
   .navbar {
-      flex-direction: row;
-      padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
   }
 
   .nav-links {
+    display: flex;
       flex-direction: row;
-      align-items: center;
-      gap: 10px;
-      font-size: 0.9rem;
+      gap: 6px;
+      justify-content: flex-end;
+      flex-grow: 1;
+      flex-wrap: nowrap; /* Prevents wrapping */
   }
 
   .background-image {
@@ -284,9 +293,11 @@ footer {
 /* Extra small devices up to 360px */
 @media only screen and (max-width: 360px) {
   .navbar {
-      flex-direction: row;
-      padding: 6px;
-      align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
   }
 
   .logo img {
@@ -295,10 +306,12 @@ footer {
   }
 
   .nav-links {
-      flex-direction: row;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-wrap: nowrap; /* Prevents wrapping */
   }
 
   .background-image {
