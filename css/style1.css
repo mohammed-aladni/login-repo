@@ -206,6 +206,31 @@ section .content{
     height: 800px;
     filter: drop-shadow(0 0 500px #fca61f);
 }
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
 
 @media (max-width:768px){
     .links {
@@ -458,9 +483,7 @@ html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
     background-color: #ddd; /* Color of the scrollbar track */
 }
-body.index-page {
-    overflow-y: hidden;  /* Disable vertical scrolling */
-}
+
 ul.social-professional {
     list-style: none;
     display: flex;
