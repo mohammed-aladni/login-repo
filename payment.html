@@ -15,16 +15,7 @@
             <button class="back-button" onclick="goBack()">Back</button>
         </div>
         
-        <script>
-        function goBack() {
-            // Check if there's a referrer and use it, otherwise default to a specific page
-            if (document.referrer) {
-                window.location.href = document.referrer;
-            } else {
-                window.location.href = 'homepage.html'; // Default if there's no referrer
-            }
-        }
-        </script>
+        
     </header>
     <div class="container">
         <h1>Select Payment Method</h1>
@@ -73,5 +64,15 @@
         document.getElementById('total-amount').textContent = `$${totalAmount.toFixed(2)}`;
     });
     </script>
+    <script>
+        function goBack() {
+            // Check if there's a referrer and use it, otherwise default to a specific page
+            if (document.referrer) {
+                window.location.href = document.referrer;
+            } else {
+                window.location.href = 'homepage.html'; // Default if there's no referrer
+            }
+        }
+        </script>
 </body>
 </html>
