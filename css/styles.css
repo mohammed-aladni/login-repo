@@ -47,24 +47,23 @@ body {
 }
 
 .nav-links a {
-  color: #ffffff; /* White text color */
-  text-decoration: none;
-  font-size: 1.0em;
-  padding: 8px 16px;
-  transition: background-color 0.3s ease; /* Smooth hover effect */
-  border-radius: 4px; /* Rounded corners for buttons */
+  font-size: 1.3rem;
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s linear;
 }
 
 .nav-links a:hover {
-  background-color: #d72ee0; /* Highlight with your primary color on hover */
-  color: white;
+  color: #8f289f;
+  text-shadow: 1px 1px #80257a ;
 }
 
 /* Dropdown menu styles */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #333;
+  background-color: #39257b;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -72,7 +71,7 @@ body {
 }
 
 .dropdown-content a {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
