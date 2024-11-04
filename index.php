@@ -63,7 +63,7 @@
           </div><br>
           
           <p class="recover">
-            <a href="recover_password.html">Recover Password</a>
+            <a href="recover_password.html">Forget the Password</a>
           </p>
           <div class="two-col">
           <div class="one">
