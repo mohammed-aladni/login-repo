@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style1.css">
-    
-    <div class="logo">
-                <img src="image/hi5.png" alt="Logo"> <!-- Replace with your logo image -->
-            </div>
 </head>
 <body>
   
