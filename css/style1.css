@@ -155,18 +155,7 @@ section .content{
     justify-content: space-around;
 }
 
-.main-content .buttons button{
-    width: 160px;
-    margin: 0 10px;
-    border-radius: 20px;
-    background: #fca61f;
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 1.1rem;
-    font-weight: 700;
-    transform: 0.2s linear;
-}
+
 
 .contact-info {
     text-align: center;
@@ -206,10 +195,11 @@ section .content{
     height: 800px;
     filter: drop-shadow(0 0 500px #fca61f);
 }
+
 footer {
-    background-color: #222;
+    background-color: #000000;
     padding: 20px 0;
-    color: #f5f5f5;
+    color: #ffffff;
     text-align: center;
   }
   
@@ -224,12 +214,16 @@ footer {
   }
   
   .footer-links a {
-    color: #f5f5f5;
+    color: #ffffff;
     text-decoration: none;
   }
   
   .footer-links a:hover {
     text-decoration: underline;
+    color: #8f289f;
+  }
+  .footer-content  p{
+    color: #636363;
   }
 
 @media (max-width:768px){
@@ -297,6 +291,9 @@ footer {
     .contact-info {
         color: rgb(218, 212, 212);
     }
+    .footer-content p {
+        font-size: 0.9rem;
+    } 
     
 }
 /* From Uiverse.io by zanina-yassine */ 
@@ -659,6 +656,10 @@ body {
     }
     .contact-info {
         color: rgb(218, 212, 212);
+    }
+
+    .footer-content p {
+        font-size: 0.8rem;
     }
     
 }
