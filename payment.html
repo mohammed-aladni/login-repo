@@ -11,11 +11,20 @@
         <div class="logo">
             <img src="image/hi5.png" alt="Logo"> <!-- Replace with your logo image -->
         </div>
-        <!-- Back Button -->
-        <div class="back-button" >
-            <a href="homepage.html" class="back-link">
-                <button class="back-button">Back</button>
-            </a>
+        <div class="back-button">
+            <button class="back-button" onclick="goBack()">Back</button>
+        </div>
+        
+        <script>
+        function goBack() {
+            // Check if there's a referrer and use it, otherwise default to a specific page
+            if (document.referrer) {
+                window.location.href = document.referrer;
+            } else {
+                window.location.href = 'homepage.html'; // Default if there's no referrer
+            }
+        }
+        </script>
     </header>
     <div class="container">
         <h1>Select Payment Method</h1>
@@ -55,7 +64,7 @@
         document.getElementById('apply-coupon').addEventListener('click', () => {
         const coupon = document.getElementById('coupon-code').value;
         let totalAmount = parseFloat(localStorage.getItem('totalAmount'));
-        if (coupon === 'DISCOUNT10') {
+        if (coupon === 'mohammed') {
             totalAmount = totalAmount * 0.9;
             alert('Coupon applied! 10% discount');
         } else {
