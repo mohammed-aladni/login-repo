@@ -20,13 +20,20 @@
     <!-- Contact Form Section -->
     <section class="contact-form">
         <h2>Send Us a Message</h2>
-        <form action="/login/sendEmail.php" method="POST" id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+        <form action="/login-repo/sendEmail.php" method="POST" id="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            
             <button type="submit">Send</button>
         </form>
     </section>
+    
          <!-- Optional Map Section -->
          <section class="map">
             <h2>Our Location</h2>
