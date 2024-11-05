@@ -1,0 +1,21 @@
+# Ignore configuration files with sensitive information
+config.php        # Configuration file with credentials
+php.ini           # PHP configuration file with environment variables
+httpd.conf        # Apache configuration file
+
+# Ignore PHPMailer library folder (if it was manually added and is not managed by Composer)
+PHPMailer-master/
+
+# Ignore environment variable files
+.env              # Common environment file for sensitive data
+
+# Ignore any backup or temporary files that might contain sensitive information
+*.bak             # Any backup files with .bak extension
+*.tmp             # Temporary files
+*.log             # Log files that might contain sensitive data
+
+# Ignore IDE/editor config files (optional, but recommended)
+.vscode/          # VSCode settings
+.idea/            # PHPStorm or WebStorm settings
+.DS_Store         # macOS system files
+Thumbs.db         # Windows system files
