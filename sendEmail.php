@@ -1,7 +1,7 @@
 <?php
-require 'PHPMailer/src/PHPMailer.php';
-require 'PHPMailer/src/SMTP.php';
-require 'PHPMailer/src/Exception.php';
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+require 'PHPMailer-master/src/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -18,6 +18,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit;
     }
 
+    // Debugging: Check if environment variables are loaded correctly
+    // echo 'SMTP_USER: ' . $_SERVER['SMTP_USER'] . "<br>";
+    //echo 'SMTP_PASS: ' . $_SERVER['SMTP_PASS'] . "<br>";
+
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
 
@@ -26,14 +30,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Set your SMTP server
         $mail->SMTPAuth = true;
-        $mail->Username = getenv('SMTP_USER'); // Retrieve the email from environment variable
-        $mail->Password = getenv('SMTP_PASS'); // Retrieve the password from environment variable
+        $mail->Username = $_SERVER['SMTP_USER']; // Retrieve the email from environment variable
+        $mail->Password = $_SERVER['SMTP_PASS']; // Retrieve the password from environment variable
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
+        // Disable SSL verification (temporary solution for testing)
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
+
         // Email content settings
         $mail->setFrom($email, $name);
-        $mail->addAddress('mohammed8aladni@gmail.com'); // Replace with recipient's email
+        $mail->addAddress('mohammed10aladni@gmail.com'); // Replace with recipient's email
 
         $mail->isHTML(false);
         $mail->Subject = "New Message from Contact Form";
