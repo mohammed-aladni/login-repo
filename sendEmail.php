@@ -18,10 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         exit;
     }
 
-    // Debugging: Check if environment variables are loaded correctly
-    // echo 'SMTP_USER: ' . $_SERVER['SMTP_USER'] . "<br>";
-    //echo 'SMTP_PASS: ' . $_SERVER['SMTP_PASS'] . "<br>";
-
+    
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
 
