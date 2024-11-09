@@ -34,13 +34,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $mail->isSMTP();
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
-            $mail->Username   = 'your-email@gmail.com';  // Your email address
+            $mail->Username   = 'mohammed10aladni@gmail.com';  // Your email address
             $mail->Password   = 'your-app-password';     // Your app password (use App Password for Gmail)
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
 
             // Email settings
-            $mail->setFrom('your-email@gmail.com', 'Your Name');
+            $mail->setFrom('mohammed10aladni@gmail.com', 'Your Name');
             $mail->addAddress($email);  // Send to the user's email address
             $mail->isHTML(true);
             $mail->Subject = 'Password Reset Request';
