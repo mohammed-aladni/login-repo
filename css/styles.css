@@ -197,6 +197,96 @@ footer {
     color: #636363;
   }
 
+  h1 { /*terms and service style*/
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.tos-content h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #2c3e50;
+}
+
+.tos-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+  .tos-footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tos-footer input {
+    margin-right: 10px;
+}
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+button:enabled {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+h1 {  /* policy page style*/
+  font-size: 2.5rem;
+}
+
+main {
+  padding: 40px 0;
+}
+
+.privacy-content h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+.privacy-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.privacy-footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.privacy-footer input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+button:enabled {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
 
 /* Responsive design for smaller screens */
 /* Tablet screens up to 768px */
